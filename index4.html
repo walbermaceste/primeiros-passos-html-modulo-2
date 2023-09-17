@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Clínica | Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <img src="icone-menu.png" alt="icone menu" height="40" width="40" title="menu"><br>
+            <ul>
+                <li><a href="index.html" target="_self">Página Inicial</a></li>
+                <li><a href="index2.html" target="_self">Sobre a Clínica</a></li>
+                <li><a href="index3.html" target="_self">Horário de Atendimento</a></li>
+                <li><a href="index4.html" target="_self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main"> 
+            <div class="header">
+            <img src="logo-clinica.png" height="100" width="180" title="Logo" alt="Logo da página Santa Clínica">
+                
+            
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content" align="left">
+                <p><h3>Marque sua consulta</h3></p>
+                    <form onsubmit="" method="get">
+                        <label><b>Nome:</b></label><input type="text" name="name"><br>
+                        <label><b>E-mail:</b></label><input type="email" name="email"><br>
+                        <label><b>Telefone:</b></label><input type="telNo" name="telefone" pattern="[0-9]{11}"><br>
+                    
+                <label><b>Especialidades:</b></label>
+                        <select name="role">
+                       <option value="" align="center">Selecione aqui</option>
+                       <option value="Cardiologista">Cardiologista</option>
+                       <option value="Pediatria">Pediatria</option>
+                       <option value="Gastroenterologista">Gastroenterologista</option>
+                    </select><br>
+                    <input type="checkbox" name="option[]" value="consulta"> Consulta <input type="checkbox" name="option[]" value="exame"> Exame <br>
+                    <br>
+                    <label><b>Dia:</b></label> 
+                    <select name="role">
+                        <option value="" align="center">Selecione aqui</option>
+                        <option value="Segunda-Feira">Segunda-Feira</option>
+                        <option value="Terça-Feira">Terça-Feira</option>
+                        <option value="Quarta-Feira">Quarta-Feira</option>
+                        <option value="Quinta-Feira">Quinta-Feira</option>
+                        <option value="Sexta-Feira">Sexta-Feira</option>
+                        <option value="Sábado">Sábado</option>
+                     </select><br>       
+                       
+                <p><b>Horários</b></p>
+                        <input type="radio" name="horário" value="07:00"> 07:00 <input type="radio" name="horário" value="08:00"> 08:00 <input type="radio" name="horário" value="09:00"> 09:00 <br>
+                        <input type="radio" name="horário" value="10:00"> 10:00 <input type="radio" name="horário" value="11:00"> 11:00 <input type="radio" name="horário" value="12:00"> 12:00 <br>
+                        <input type="radio" name="horário" value="13:00"> 13:00 <input type="radio" name="horário" value="14:00"> 14:00 <input type="radio" name="horário" value="15:00"> 15:00 <br>
+                        <input type="radio" name="horário" value="16:00"> 16:00 <input type="radio" name="horário" value="17:00"> 17:00 <input type="radio" name="horário" value="18:00"> 18:00 <br>
+                     
+                    <textarea name="message"></textarea><br>
+                        <button type="submit">Enviar</button><br>
+                        <button type="reset">Limpar</button><br>
+                    </form>  <br> 
+                <div>  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.4797140594!2d-39.01170572646573!3d-11.66037593482388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7138d15f2891365%3A0x66aaea13413c93e3!2sPra%C3%A7a%20Lu%C3%ADs%20Nogueira%2C%20337%20-%20Centro%2C%20Serrinha%20-%20BA%2C%2048700-000!5e0!3m2!1spt-BR!2sbr!4v1694961964420!5m2!1spt-BR!2sbr" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>    
+
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <ul>
+                    <li><strong>Endereço:</strong> Praça Luis Nogueira, <strong>N°</strong>: 337 - Centro </li>
+                    <li><strong>Cidade:</strong> Serrinha-BA, <Strong>CEP:</Strong> 48700-000</li>
+                    <li><Strong>Telefone:</Strong> (75) 3261-0000   <strong>WhatsApp:</strong> (75) 99199-9999</li>
+                    <li><Strong>CNPJ:</Strong> 31.567.436/0001-89</li> 
+                </ul>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
